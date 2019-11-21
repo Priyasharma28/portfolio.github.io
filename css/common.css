@@ -1,0 +1,88 @@
+html,body
+{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+*
+{
+    box-sizing: border-box;
+}
+body::-webkit-scrollbar
+{
+    width: 4px;
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color: orange
+}
+body::-webkit-scrollbar-track
+{
+    background-color: black;
+}
+
+
+
+.lottie
+{
+    width: 50%;
+    height: 50vh;
+   
+}
+
+.hide_class
+{
+    display: none;
+}
+.main1
+{
+    width: 100%;
+  
+  
+    
+}
+.priya{
+    
+    margin-top: 30px;
+    width:100%;
+
+}
+
+
+
+.main2
+{
+    width: 100%;
+    
+}
+.main3
+{
+    width: 100%;
+   
+}
+.main4
+{
+    width: 100%;
+   
+}
+.main5
+{
+    width: 100%;
+ 
+}
+.main6
+{
+    width: 100%;
+
+}
+.main7
+{
+    width: 100%;
+    
+}
+.main8
+{
+    width: 100%;
+  
+}

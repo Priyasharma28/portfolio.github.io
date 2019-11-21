@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="hover.css">
+    <link href="https://fonts.googleapis.com/css?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+ 
+    <style>
+ .nav-item:hover a {background-color: rgb(245, 146, 53);}
+
+ @media only screen and (max-width:2080px){
+     .card-title{
+         font-size:80px;
+        color:white;
+         font-family: 'Amiri', serif;
+
+     }
+ }
+ @media only screen and (max-width:500px){
+  .card-title {
+         font-size:50px;
+     }
+ }
+ @media only screen and (max-width:2080px){
+     #id1{
+         font-size:30px;
+        color:yellow;
+        font-family: 'Lobster Two', cursive;
+
+     }
+ }
+ @media only screen and (max-width:500px){
+     #id1 {
+         font-size:17px;
+     }
+ }
+
+        
+.menu-btn {
+                display: block;
+                width: 48px;
+                height: 36px;
+                margin: 20% auto 0 auto;
+            }
+            
+            .menu-btn-block {
+                width: 78%;
+                height: 2px;
+                background-color: white;
+                border-radius: 5px;
+                transform-origin: 0 50%;
+                transition: transform 0.3s ease;
+            }
+            
+            .menu-btn-block.middle {
+                margin: 9px 0;
+            }
+            
+            .menu-btn-block.top.active {
+                transform: rotate(38.682deg);
+            }
+            .menu-btn-block.middle.active {
+                transform: scale(0);
+            }
+            .menu-btn-block.bottom.active {
+                transform: rotate(-38.682deg);
+            }
+            
+            
+
+    </style>
+</head>
+<body >
+ 
+
+    <!-- Loader Start -->
+    <div id="welcome" >
+       
+    </div>
+    <!-- Loader Ends -->
+
+    <!-- Landing Page Starting -->
+        <div class="main1">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " style="color:white;">
+                <a class="navbar-brand" href="#" style="color:white; font-size:25px; font-weight:bold; font-family: 'Josefin Sans', sans-serif;">Priya Sharma</a>
+                <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                  <span  >
+                    <a href="#" class="menu-btn">
+                        <div class="menu-btn-block top"></div>
+                        <div class="menu-btn-block middle"></div>
+                        <div class="menu-btn-block bottom"></div>
+                    </a>
+                  </span>
+                </button>
+                <div class="collapse navbar-collapse"   id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active m-2">
+                      <a class="nav-link"  href="#about" style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif;">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active m-2" href="#resume" style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif;">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active m-2" href="#contact" style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif;">Contact</a>
+                    </li>
+                   
+                  </ul>
+                </div>
+              </nav>
+             <div class="priya">
+                <div class="card mb-3"  >
+                    <div class="row no-gutters"  >
+                      <div class="col-md-3">
+                        <img src="pic.jpg" class="card-img" alt="..."  style="height: 593px;" >
+                      </div>
+                      <div class="col-md-9" style="background-image:url('blue.jpg');  background-size: cover; background-position: center;" >
+                        
+                        <div class="card-body" style="padding-top:150px;" >
+                          <h5 class="card-title d-flex justify-content-center" id="about" >I love to design....</h5>
+                    
+                          <p class="card-text d-flex justify-content-center" id="id1" >Hello! I am &nbsp;<span style="color:white"> Web Designer</span>. &nbsp;Developer to buid effective web designs.</p>
+                          <p class="card-text d-flex justify-content-center"><small class="text"  style="font-size: 25px; color:white; font-family: 'Josefin Sans', sans-serif;">Web Developer</small></p>
+                        </div>
+                    
+                      </div>
+                    </div>
+                  </div>
+               
+             </div>
+
+        </div>
+    <!-- Landing Page Ending -->
+
+    <!-- About Me Section Starting -->
+        <div class="main2 uk-padding"   >
+            <div class="uk-container uk-container-expand">
+                    <div uk-grid uk-height-match>
+                           
+                            <div class=" uk-width-1-1@m uk-width-1-1@s">
+                                <h2 class="uk-text-left@l" style="color:red;">My Little Story</h2><br>
+                                <p class="uk-text-justify" style="font-size:20px;  font-family: 'Josefin Sans', sans-serif; background-color: bisque;">I wanted to introduce myself to you, visitors of my site. I’m Priya Sharma and I’m currently a freelance web developer. I am pursuing B.Tech from FET  AGRA COLLEGE in the stream of Computer Science And Engineering.
+                                        I needed to find the right path for myself and search for a field that would challenge me while allowing me to be creative at the same time. I wanted something to keep my interest no matter how bored I grew and would always keep me fascinated and eager to learn more.
+                                </p>
+                            </div>
+                    </div>                
+            </div>
+        </div>
+    <!-- About Me Section Ending -->
+
+    <!-- Skills Starting -->
+        <div class="main3 uk-padding" id="resume" >
+                <div class="uk-container " >
+                    <h2 class="uk-text-center uk-margin-bottom" style="color:darkblue;">My Skills</h2>
+                    <br>
+                    <div uk-slider="center: true;autoplay: true;autoplay-interval: 2000">
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                                <ul class="uk-slider-items uk-child-width-1-3@s " uk-grid  uk-height-match>
+                                    <li>
+                                        <div class="uk-background-primary">
+                                            <div class="uk-card-body">
+                            
+                                                <p class="uk-text-center">
+                                                        <img src="htlm2.png" style="height:97px; width: 120px;" ></img>
+                                                </p>
+
+                                                <h3 class="uk-card-title uk-text-center" >HTML</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="background-color: brown">
+                                            <div class="uk-card-body">
+                                                    <p class="uk-text-center">
+                                                            <img src="css2.png" style="height:97px; width: 100px;" ></img>
+                                                    </p>
+                                                    <h3 class="uk-card-title uk-text-center">CSS</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div style="background-color: chartreuse;">
+                                            <div class="uk-card-body">
+                                                    <p class="uk-text-center">
+                                                            <img src="jss.png" style="height:97px; width: 220px;" ></img>
+                                                    </p>
+                                                    <h3 class="uk-card-title uk-text-center">Javascript</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="uk-background-primary" >
+                                            <div class="uk-card-body uk-text-center"   >
+                                                 
+                                                            <img src="jqy.png" class="uk-text-center" style="height:113px; width: 200px;" ></img>
+                                                   
+                                                    <h3 class="uk-card-title uk-text-center">JQuery</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                            <div class="uk-background-secondary">
+                                                <div class="uk-card-body">
+                                                        <p class="uk-text-center">
+                                                                <img src="phpp.png" style="height:97px; width: 200px;" ></img>
+                                                        </p>
+                                                        <h3 class="uk-card-title uk-text-center">PHP</h3>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                                <div style="background-color: brown;">
+                                                    <div class="uk-card-body">
+                                                            <p class="uk-text-center">
+                                                                    <img src="ajax2.png" style="height:98px; width: 200px;" ></img>
+                                                            </p>
+                                                            <h3 class="uk-card-title uk-text-center">AJAX</h3>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                    <div style="background-color:chartreuse;">
+                                                        <div class="uk-card-body">
+                                                                <p class="uk-text-center">
+                                                                        <img src="my.png" style="height:98px; width: 200px;" ></img>
+                                                                </p>
+                                                                <h3 class="uk-card-title uk-text-center">MYSQL</h3>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                </ul>
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>                        
+                            </div>
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                        </div>
+                </div>
+                <br>
+                <div class=" uk-margin-top" >
+                       <center>
+                            <a class="uk-button uk-button-danger uk-margin-top@l" style="font-weight: bold;" href="resume.pdf">Download Resume</a>
+                       </center>
+                </div>
+        </div>
+    <!-- Skills Ending -->
+
+    <!-- My Work Starting -->
+        <div class="main4 uk-padding">
+                <div class="uk-container uk-container-expand">
+                        <h2 class="uk-text-center uk-margin-bottom" style="color:darkgreen;">My Work</h2>
+                        <br>
+
+                        <div class="uk-child-width-1-3@l uk-child-width-1-1@m uk-child-width-1-1@s" uk-grid  uk-height-match>
+                                <div>
+                                    <div class="uk-card uk-card-secondary uk-card-body uk-text-center" style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif; ">Responsive Web Template 1</div>
+                                    <a class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-top"  style="font-weight: bold;"  href="https://priyasharma28.github.io/bakery.github.io/">Github Link</a>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-secondary uk-card-body uk-text-center"  style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif; ">Responsive Web Template 2</div>
+                                    <a class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-top"   style="font-weight: bold;" href="https://priyasharma28.github.io/newtaj.github.io/">Github Link</a>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-secondary uk-card-body uk-text-center "  style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif; ">Responsive Web Template 3</div>
+                                    <a class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-top"   style="font-weight: bold;" href="#">Github Link</a>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-secondary uk-card-body uk-text-center" style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif; ">TicTac Game</div>
+                                    <a class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-top"   style="font-weight: bold;"  href="#">Github Link</a>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-secondary uk-card-body uk-text-center " style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif; ">Quiz Test</div>
+                                    <a class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-top"   style="font-weight: bold;"  href="#">Github Link</a>
+                                </div>
+                                <div>
+                                    <div class="uk-card uk-card-secondary uk-card-body uk-text-center " style="color:white; font-size:18px; font-family: 'Josefin Sans', sans-serif; ">News Web Application</div>
+                                    <a class="uk-button uk-button-primary uk-width-1-1 uk-margin-small-top"   style="font-weight: bold;" href="#">Github Link</a>
+                                </div>
+                            </div>
+                </div>
+        </div>
+    <!-- My Work Ending -->
+
+    <!-- Quotes Slider Starting -->
+        <div class="main5 uk-padding " style="background-image:url('image.jpg'); ">
+            <div class="uk-container uk-container-expand">
+                    <div uk-slider="center: true;autoplay: true;autoplay-interval: 2000">
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                                <ul class="uk-slider-items uk-child-width-1-1@s " uk-grid  uk-height-match>
+                                    <li>
+                                        <div >
+                                            <div class="uk-card-body" >
+                            
+                                                <p class="uk-text-center" style=" font-size:40px; color:purple; font-family: 'Satisfy', cursive;">“Website without visitors is like a ship lost in the horizon.” </p>
+
+                                                <h3 class="uk-card-title uk-text-center" style="color:red; font-size:30px; font-weight: bold;">Front-End Design</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <div class="uk-card-body">
+                                                    <p class="uk-text-center"  style="font-size:40px; color:green;  font-family: 'Satisfy', cursive;">"Responsive Web design uses fluid grids,flexible images and media queries to deliever  eligant and visual experiences"</p>
+
+                                                    <h3 class="uk-card-title uk-text-center" style="color:rgb(255, 115, 0); font-size:30px; font-weight: bold;">Web Designer(UI/UX Designer)</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <div class="uk-card-body">
+                                                    <p class="uk-text-center"   style="font-size:40px; color:blue;  font-family: 'Satisfy', cursive;">“A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away."</p>
+
+                                                    <h3 class="uk-card-title uk-text-center" style="color:green; font-size:30px; font-weight: bold;" >Web Developer</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <div class="uk-card-body">
+                                                    <p class="uk-text-center"  style="font-size:40px; color:red; font-family: 'Satisfy', cursive;">"Behind every attractive design from which the user attract , there is need of backbone of the website."</p>
+
+                                                    <h3 class="uk-card-title uk-text-center" style="color:purple; font-size:30px; font-weight:bold;">Back-End Developer</h3>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>                        
+                            </div>
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                        </div>
+            </div>
+        </div>
+    <!-- Quotes Slider Ending -->
+
+    <!-- Refrences Testimonials Starting -->
+        <div class="main6 uk-padding">
+            <div class="uk-container  uk-container-expand" >
+                    <h2 class="uk-text-center uk-margin-bottom" style="color:purple;">Testimonials</h2>
+                    <br>
+                    <div uk-slider="center: true;autoplay: true;autoplay-interval: 2000">
+
+                            <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+                        
+                                <ul class="uk-slider-items uk-child-width-1-1@s uk-grid">
+                                    <li>
+                                        <div class="uk-card uk-card-secondary">
+                                           
+                                            <div class="uk-card-body">
+                                              
+                                                <p style="font-family: 'Satisfy', cursive; font-size:25px;">"Priya  Sharma has designed web pages and worked on dynamic functionlity of websites by
+                                                    understanding the development specifications. She demonstrated good programming Skills
+                                                    with self motivated attitude to learn new things.Her performance exceeded expectations and was 
+                                                    able to complete her assignments successfully on time."
+                                                    <br> We wish her all the best for her future endeavours. 
+                                                    <h5 class="uk-text-right">
+                                                        Rohit Singh<br>
+                                                        Application Developer & Mentor<br>
+                                                        Ninepages Techsolutions Pvt. Ltd.
+                                                    </h5>
+                                        </p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                   
+                                    
+                                   
+                                    
+                                </ul>
+                        
+                                <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                                <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                        
+                            </div>
+                        
+                            <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+                        
+                        </div>
+            </div>
+        </div>
+    <!-- Refrences Testimonials Ending -->
+
+    <!-- Contact Me Starting -->
+        <div class="main7 uk-padding " id="contact">
+                <div class="uk-container ">
+                        <h2 class="uk-text-center uk-margin-bottom" style="color:crimson;">Contact Me</h2>
+                        <br>
+                </div>
+
+                <div class="uk-child-width-1-3@m uk-grid-small uk-grid-match" uk-grid>
+                        <div>
+                            <div class="uk-card   uk-card-body" style="background-color: rgb(238, 218, 138);">
+                                <h3 class="uk-card-title uk-text-center">
+                                        <img src="gmail.png" style="height: 50px; width:60px; margin-top: 12px;" >
+                                </h3>
+                              <a href="https://accounts.google.co.in" style="text-decoration: none; color:green; font-weight: bold; font-size:20px; "> <p class="uk-text-center" style="margin-top: 18px;">
+                                    Cutepriya2810@gmail.com
+                                </p></a> 
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card  uk-card-body" style="background-color: rgb(238, 218, 138);">
+                                    <h3 class="uk-card-title uk-text-center">
+                                            <img src="linkedin.png" style="height: 70px; width:80px;">
+                                    </h3>
+                                 <a href="https://www.linkedin.com/in/priya-sharma-6ab028166/" style="text-decoration: none; color:green; font-weight: bold; font-size:20px">  <p class="uk-text-center">
+                                        Profile
+                                    </p></a> 
+                            </div>
+                        </div>
+                      
+                        <div>
+                            <div class="uk-card  uk-card-body" style="background-color: rgb(238, 218, 138);">
+                                    <h3 class="uk-card-title uk-text-center">
+                                            <img src="phone2.png" style="height: 60px; width:50px;">
+                                    </h3>
+                                    <p class="uk-text-center" style="color:green; font-weight: bold; font-size:20px">
+                                   9837782387
+                                    </p>
+                            </div>
+                        </div>
+                    </div>                    
+        </div>
+    <!-- Contact Me Ending -->
+
+    <!-- All Right Reserved Starting -->
+        <div class="main8 uk-padding-small uk-background-secondary">
+            <div class="uk-container uk-container-expand">
+                <h6 class="uk-text-center "> <span class="uk-light">&copy; All Right Reserved By</span> <a href="https://www.ninepagestech.com">NinePages TechSolutions</a></h6>
+            </div>
+        </div>
+    <!-- All Right Reserved Ending -->
+
+
+<script src="jq.js"></script> 
+<script src="lottie.js"></script>   
+<script src="ui.js" ></script>  
+<script src="ui_icon.js" ></script> 
+<script src="main.js" ></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script type="text/javascript">
+            
+            (function() {
+                
+                var menuBtn = $('a.menu-btn'),
+                    menuBtnBlock = menuBtn.find('div.menu-btn-block');
+                
+                menuBtn.on('click', function() {
+                    menuBtnBlock.toggleClass('active');
+                });
+                
+                
+                
+            })();
+            
+        </script>
+        
+         
+
+</body>
+</html>
